@@ -1,7 +1,9 @@
 https://github.com/Kraken1911/tiendaenlinea.git
 # Proyecto de Plataforma CompraTodo
 ## Proyecto de Hernandez Cervantes Derek Ivan. 
-##Grupo 170
+## Grupo 170
+### link del proyecto
+ https://compratodo.netlify.app/
 ## Descripción del Proyecto
 
 Este proyecto es una **plataforma de compraventa** desarrollada para permitir a los usuarios comprar y vender productos de manera eficiente y segura. La plataforma está dividida en dos roles principales: compradores y vendedores. Los compradores pueden buscar productos, añadirlos a su carrito y realizar compras simuladas, mientras que los vendedores pueden gestionar sus productos en venta, añadir nuevos productos y visualizar un balance de ventas.
