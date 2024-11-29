@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compratodo ventas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>d
+    <header class="bg-dark text-white text-center py-3">
+        <a href="index.html" class="btn btn-secondary">Volver a Inicio</a>
+        <h1>Compratodo ventas</h1>
+        <img src="/resources/Compratodo.png" alt="" width="70px">
+    </header>
+    <main class="container my-4">
+        <div class="row">
+            <section id="mis-productos" class="col-md-6">
+                <h2>Mis Productos en Venta</h2>
+                <div id="lista-mis-productos" class="row"></div>
+                <button id="añadir-producto" class="btn btn-primary mt-3">Añadir Producto</button>
+            </section>
+            <section id="balance-ventas" class="col-md-6">
+                <h2>Balance de Ventas</h2>
+                <p>Total de valor en mercancias $<span id="total-ventas">0.00</span></p>
+            </section>
+        </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-2">
+        <p>Derechos reservados © 2024</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="venta.js"></script>
+</body>
+</html>
